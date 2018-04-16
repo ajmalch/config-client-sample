@@ -3,7 +3,5 @@ spring:
     name: config-client-sample
   cloud:
     config:
-      uri: https://config-server-sample.herokuapp.com
-management:
-  security:
-    enabled: false
+      uri: http://localhost:8888
+
