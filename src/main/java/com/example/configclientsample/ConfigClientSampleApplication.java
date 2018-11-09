@@ -21,7 +21,7 @@ public class ConfigClientSampleApplication {
 		SpringApplication.run(ConfigClientSampleApplication.class, args);
 	}
 
-	@GetMapping("sayHi")
+	@GetMapping("config-client/sayHi")
 	public  String sayHi(){
 		log.info("Hi Called");
 		return message;
